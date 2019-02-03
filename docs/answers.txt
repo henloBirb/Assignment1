@@ -1,0 +1,70 @@
+(a):
+	hayde@DESKTOP-BV2M7KG MINGW64 ~/Documents/CEN4020/Assignment1 (master)
+	$ git status
+	On branch master
+	Your branch is ahead of 'origin/master' by 1 commit.
+	  (use "git push" to publish your local commits)
+
+	nothing to commit, working tree clean
+
+(b):
+	hayde@DESKTOP-BV2M7KG MINGW64 ~/Documents/CEN4020/Assignment1/docs (master)
+	$ git rev-list --count origin/master
+	4
+
+	I also tried "git log", saw two commits previously made and my own two along with comments.
+
+(c):
+	Here's how I got it using the notes:
+	hayde@DESKTOP-BV2M7KG MINGW64 ~/Documents/CEN4020/Assignment1 (master)
+	$ git log --follow ./.gitignore
+	commit 69281a35557fd1226cbfc11428068c5d8bcf8466
+	Author: Javier Escobar-Avila <jrescobara@gmail.com>
+	Date:   Thu Jan 10 16:45:38 2019 -0500
+
+	Here's what I found online to double-check:
+	git ls-files -z | xargs -0 -n1 -I{} -- git log -1 --format="%ai {}" {}
+
+(d):
+	Branches are used in a Git repository so that you can seaprate your workflow and tackle 
+	different problems. It allows you to check out code on a separate branch and allows for 
+	multiple people ot be working on different branches at any given point in time. It allows 
+	you to test new features as well in a separate branch that youi can later merge if it works 
+	out.
+
+(e):
+	"git log" gets info regarding the changes and notes from previous commits.
+	"git status" is used to check the current status of a repository.
+
+(f):
+	git log --follow ./Weapon.h
+
+(g):
+	git log --grep=file
+
+(h):
+	Inheritence:	The principle of creating classes that can be inherited from. "Is-A" 
+					relationships.
+	Polymorphism:	Having functions share the same name with different funtionality in 
+					sublasses. Interface is the same, implementation is different. 
+	Encapsulation:	The principle of hiding the implementation of data from the user.
+
+(i):
+	The main difference between the "Dictator and Lieutenants" workflow and the 
+	"Integration Management" workflow would be that rather than an integration
+	manager, the Dictator and Lieutenants workflow has lieutenants that resolve
+	conflicts for a few (not all) developers and the Dictator merges the lieutenant
+	changes and is the only person who can push them.
+
+(j):
+	A team of 100 developers would benefir from the "Dictator and Lieutenants" workflow
+	as opposed to the "Centralized Workflow" becuase rather than having each individual
+	developer responsible for pulling changes to the central repository and resolving
+	conflicts (which for 100 devs would mean many frequent changes so by the time you
+	resolve your conflict another change may have been added), you break it up and have
+	the lieutenants merge for a few developers and the dictator merge the lieutenants. 
+	It reminds me of a Big O of log(n) algo in it's approach. The D&L method is more
+	attractive the more developers you have.
+
+
+	
