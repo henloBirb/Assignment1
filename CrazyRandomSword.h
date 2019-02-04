@@ -23,12 +23,14 @@ class CrazyRandomSword : public Weapon {
 public:
 	//std::srand(std::time(0));
 
-    CrazyRandomSword() : Weapon("Crazy random sword", 7 + ( rand() % 93 ) ) { // inspired by examples
+    CrazyRandomSword() : Weapon("Crazy random sword", 7 + randNumGen() ) { 
     }
 
     virtual ~CrazyRandomSword() {};
 
     virtual double hit(double armor);
+
+	int randNumGen();
 
 };
 

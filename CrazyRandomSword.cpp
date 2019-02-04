@@ -7,6 +7,7 @@
 
 #include "CrazyRandomSword.h"
 
+
 double CrazyRandomSword::hit(double armor) {
 
 	srand(time(0));
@@ -26,3 +27,10 @@ double CrazyRandomSword::hit(double armor) {
 }
  
  
+int CrazyRandomSword::randNumGen() {
+	srand(time(0));
+
+	int theNumb = rand() % 93;
+
+	return theNumb;
+}
