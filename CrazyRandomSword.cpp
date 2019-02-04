@@ -9,9 +9,13 @@
 
 double CrazyRandomSword::hit(double armor) {
 
+	srand(time(0));
+
 	double damage = hitPoints - armor;
 
-	damage += floor(2 + rand()%(armor/3));
+	int armorBonus = floor(armor/3);
+
+	damage += 2 + rand()%armorBonus;
 
 
 	if (damage < 0)

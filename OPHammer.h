@@ -17,13 +17,13 @@
  * Defines the behavior of a simple hammer (hitpoint = 4, damage is increased 
  * by 4x the armor points)
  */
-class SimpleHammer : public Weapon {
+class OPHammer : public Weapon {
 public:
 
-    SimpleHammer() : Weapon("OP hammer", 4.0) { // inspired by examples
+    OPHammer() : Weapon("OP hammer", 4.0) { // inspired by examples
     }
 
-    virtual ~SimpleHammer() {};
+    virtual ~OPHammer() {};
 
     virtual double hit(double armor);
 

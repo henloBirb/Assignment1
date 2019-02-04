@@ -6,8 +6,10 @@
  */
 
 #include <string>
-#include <ctime>
-#include <math>
+#include <time.h>
+#include <cmath>
+#include <stdlib.h>
+//#include <random>
 #include "Weapon.h"
 
 #ifndef CRAZYRANDOMSWORD_H
@@ -19,7 +21,7 @@
  */
 class CrazyRandomSword : public Weapon {
 public:
-	srand(time(0));
+	//std::srand(std::time(0));
 
     CrazyRandomSword() : Weapon("Crazy random sword", 7 + ( rand() % 93 ) ) { // inspired by examples
     }
