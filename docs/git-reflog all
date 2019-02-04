@@ -1,0 +1,55 @@
+Added just in case!
+
+hayde@DESKTOP-BV2M7KG MINGW64 ~/Documents/CEN4020/Assignment1 (master)
+$ git reflog --all
+92cb914 (HEAD -> master, origin/master, origin/HEAD) refs/remotes/origin/master@{0}: update by push
+92cb914 (HEAD -> master, origin/master, origin/HEAD) refs/heads/master@{0}: commit: Update answers.txt
+92cb914 (HEAD -> master, origin/master, origin/HEAD) HEAD@{0}: commit: Update answers.txt
+b4c36e7 (development) refs/heads/master@{1}: merge development: Fast-forward
+b4c36e7 (development) HEAD@{1}: merge development: Fast-forward
+3b72a9e HEAD@{2}: checkout: moving from development to master
+b4c36e7 (development) refs/heads/development@{0}: commit: Update main.cpp
+b4c36e7 (development) HEAD@{3}: commit: Update main.cpp
+72a0584 refs/heads/development@{1}: commit: BugFix Rand num gen
+72a0584 HEAD@{4}: commit: BugFix Rand num gen
+c702bc2 refs/heads/development@{2}: commit: Update main.cpp
+c702bc2 HEAD@{5}: commit: Update main.cpp
+4be7c5f refs/heads/development@{3}: commit: Update main.cpp
+4be7c5f HEAD@{6}: commit: Update main.cpp
+8ef57e5 refs/heads/development@{4}: commit: Rand Bug Fix + OPHammer
+8ef57e5 HEAD@{7}: commit: Rand Bug Fix + OPHammer
+657d1e9 refs/heads/development@{5}: commit: Update WeaponFactory.cpp
+657d1e9 HEAD@{8}: commit: Update WeaponFactory.cpp
+0261f8c refs/heads/development@{6}: commit: Create OPHammer.cpp
+0261f8c HEAD@{9}: commit: Create OPHammer.cpp
+45507fa refs/heads/development@{7}: commit: Create OPHammer.h
+45507fa HEAD@{10}: commit: Create OPHammer.h
+030babc refs/heads/development@{8}: commit: Create CrazyRandomSword.cpp
+030babc HEAD@{11}: commit: Create CrazyRandomSword.cpp
+a2b140e refs/heads/development@{9}: commit: Update CrazyRandomSword.h
+a2b140e HEAD@{12}: commit: Update CrazyRandomSword.h
+0cc9030 refs/heads/development@{10}: commit: Create CrazyRandomSword.h
+0cc9030 HEAD@{13}: commit: Create CrazyRandomSword.h
+47e348c refs/heads/development@{11}: commit: Create SimpleHammer.cpp
+47e348c HEAD@{14}: commit: Create SimpleHammer.cpp
+59dd44b refs/heads/development@{12}: commit: Create SimpleHammer.h
+59dd44b HEAD@{15}: commit: Create SimpleHammer.h
+3b72a9e refs/heads/development@{13}: branch: Created from master
+3b72a9e HEAD@{16}: checkout: moving from master to development
+3b72a9e refs/heads/master@{2}: commit: Removed Dev Files
+3b72a9e HEAD@{17}: commit: Removed Dev Files
+d373cdb refs/heads/master@{3}: commit: Create SimpleHammer.cpp
+d373cdb HEAD@{18}: commit: Create SimpleHammer.cpp
+f975b3a refs/heads/master@{4}: commit: Create SimpleHammer.h
+f975b3a HEAD@{19}: commit: Create SimpleHammer.h
+72ba8ad refs/heads/master@{5}: commit: Update answers.txt
+72ba8ad HEAD@{20}: commit: Update answers.txt
+5267472 refs/remotes/origin/master@{1}: update by push
+5267472 refs/heads/master@{6}: commit: answers.txt
+5267472 HEAD@{21}: commit: answers.txt
+278a416 refs/heads/master@{7}: commit: Update README.md
+278a416 HEAD@{22}: commit: Update README.md
+3d373c9 (upstream/master) refs/remotes/upstream/master@{0}: fetch --progress --prune upstream: storing head
+3d373c9 (upstream/master) refs/heads/master@{8}: clone: from https://github.com/henloBirb/Assignment1.git
+3d373c9 (upstream/master) refs/remotes/origin/HEAD@{0}: clone: from https://github.com/henloBirb/Assignment1.git
+3d373c9 (upstream/master) HEAD@{23}: clone: from https://github.com/henloBirb/Assignment1.git
