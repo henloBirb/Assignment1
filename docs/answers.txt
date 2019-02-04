@@ -67,4 +67,17 @@
 	attractive the more developers you have.
 
 
-	
+5. RoleGame OOP Principles
+
+	Is the RoleGame prototype using polymorphism and/or encapsulation? If so, please
+	discuss the ways that the prototype is using it. 
+
+	Yes, the RoleGame prototype is using both principles of encapsulation and polymorphism.
+
+	One way the program uses the principle of polymorphism is by way of abstract classes.
+	For example, the Weapon class is built strictly to be inherited from. The inherited 
+	classes are all utilizing functions of the same name, but those funtions all act 
+	slightly differently based upon the class. The prototype also utilized the principle 
+	of encapsulation by hiding certain data from the user creating the "black box" effect
+	of having the instructions of what a class can do such as the Weapon Factory, and 
+	hiding the implementation. 
