@@ -4,6 +4,9 @@
  * Author: Javier <jrescobara@gmail.com> 
  *
  * Created on September 25, 2017, 3:19 PM
+
+ *### Modiefied by Hayden Rogers 2/3/2019
+
  */
 
 #include <cstdlib>
@@ -38,6 +41,12 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+
+    weapon = WeaponFactory::getInstance()->getWeapon("simpleHammer");
+    simulateWeapon(weapon, armor);
+    delete(weapon);
+
+
 
     return 0;
 }
